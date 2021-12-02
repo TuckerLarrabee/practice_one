@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: lightslategrey;
 }
 
 body {
@@ -31,15 +32,21 @@ header h1 {
 header a {
     text-decoration: none;
     color: honeydew;
+    background: #0a128d;
 }
 
 header nav {
     float: right;
     margin: 7px 0;
+    background: #0a128d;
 }
 
+header nav ul {
+    background-color: #0a128d;
+}
 header nav ul li {
     display: inline;
+    background-color: #0a128d;
 }
 
 header nav ul li a {
@@ -86,3 +93,10 @@ header nav ul li a {
     font-size: 36px;
 }
 
+
+
+footer {
+    margin-top: 200px;
+    margin-left: 57px;
+    color: #0a128d;
+}
