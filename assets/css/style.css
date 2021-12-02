@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: turquoise;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,9 +11,9 @@ body {
 header {
     padding: 20px 35px;
     border-style: groove;
-    border-color: rgb(158, 73, 255);
+    border-color: rgb(219, 34, 2);
     border-width: 15px;
-    background-color: #39a6b2;
+    background-color: #0a128d;
 }
 
 header h1 {
@@ -16,39 +21,57 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    border-style: outset;
-    border-color: violet;
-    padding: 25px;
+    /* border-style: outset;
+    border-color: violet; */
+    /* padding: 25px; */
+    display: inline;
+
+}
+
+header a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
 .break{
-    padding-top: 75px;
+    padding-top: 40px;
 }
 
-h1 a {
-    text-decoration: none;
-}
 
-.sectionone {
+.bio {
     height: 100px;
-    padding: 50px;
-    margin: 25px;
-    border-top-color: blueviolet;
+    padding: 50px 10px;
+    margin: 25px auto;
+    /* border-top-color: blueviolet; */
     border-style: inset;
-    border-width: 15px;
+    border-width: 7px;
 }
 
-.sectiontwo {
-    height: 55px;
+.bio h2 {
+    font-size: 36px;
 }
 
-.sectionthree {
-    height: 75px;
+.bio p {
+    padding-bottom: 24px;
 }
 
-.sectionfour {
-    padding: 100px;
-
+#bio {
+    padding: 50px;
 }
 
 .influences h2 {
@@ -56,5 +79,10 @@ h1 a {
 }
 
 .recordings h2 {
+    font-size: 48px;
+}
+
+.recordings h2 {
     font-size: 36px;
 }
+
