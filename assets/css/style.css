@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: lightslategrey;
+    box-sizing: border-box;
 }
 
 body {
@@ -96,7 +97,19 @@ header nav ul li a {
 
 
 footer {
-    margin-top: 200px;
-    margin-left: 57px;
     color: #0a128d;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    font-size: 24px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
 }
